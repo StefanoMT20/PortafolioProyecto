@@ -1,0 +1,40 @@
+.proyect{
+    padding-block: 2.5rem;
+}
+.proyect img {
+    max-inline-size: 100%;
+}
+
+.proyect-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.proyect-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+@media  screen and (min-width:768px) {
+    .proyect{
+        display: flex;
+        align-items: center;
+        padding-block: 5rem;
+        gap: 2rem;
+       
+    }
+    .proyect-info{
+        flex: 1;
+    }
+    .proyect:nth-of-type(odd) .proyect-img{
+        order: 2;
+        flex: 1;
+        text-align: center;
+      
+    }
+    .proyect-buttons{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+}

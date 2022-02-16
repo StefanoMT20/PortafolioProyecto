@@ -1,0 +1,19 @@
+.testimony{
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    padding: 1.5rem;
+}
+.testimony-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.testimony p{
+    font: var(--button);
+    margin: 0;
+}
+.testimony span {
+    font: var(--caption);
+}
