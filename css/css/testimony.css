@@ -3,6 +3,8 @@
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(40px);
     padding: 1.5rem;
+    position: relative;
+    z-index: -1;
 }
 .testimony-content{
     display: flex;
